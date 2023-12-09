@@ -408,19 +408,33 @@ Example: Censor words
 // Returns 'Hello ****'
 ```
 ---
-# In summary: 
+# Summary: 
+We covered a lot of ground in this tutorial! Here are the key takeaways:
 
-## Regex Methods:
-- `.test()`  - Validate input by checking for a match
-- `.exec()`  - Extract information by returning info about the first match
-- `.match()`  - Find all matches and return them in an array
-- `.search()`  - Check if a pattern exists in a string by returning the index of the first match
-- `.replace()`  - Perform find and replace operations by replacing matches with another string
+- Regex or regular expressions are patterns used to match sequences of characters in strings.
+-  In JavaScript, regex can be used for validation, parsing strings, replacing text, and more.
+-  Regex has its own meta language with special characters, quantifiers, anchors, flags, and groups.
+
+### The methods used for regex in JS are:
+- `.test()` - Tests for a match
+- `.exec()` - Returns info on the first match
+- `.match()` - Returns all matches
+- `.search()` - Searches for a match and returns the index
+- `.replace()` - Replaces matches with another string
+
+### • Regex flags include:
+- `g` - Global search
+- `i` - Case insensitive search
+- `m` - Multi-line search
+
+• Practice and experiment with regex! It is a powerful tool once mastered.
 
 
-## Regex Flags
----
-- `g` - Global, finds all matches
-- `i` - Case insensitive, matches both upper and lower case
-- `m` - Multi-line, allows ^ and $ to match the start and end of lines
+Thank you for reading my comprehensive guide to regular expressions in JavaScript! If you have any feedback, questions, or want to improve the article, please [`email`](mediishn@gmail.com) me.
 
+You can also find more regex examples and projects on my [`GitHub`](https://github.com/m-mdy-m) and contact me on [`Twitter`](https://twitter.com/m__mdy__m). I hope this tutorial was helpful! Regex can seem cryptic, but with use it will become second nature.
+
+Examples of practice repositories with regex:
+([`repository 1`](https://github.com/m-mdy-m/highlight-text)) ([`repository 2`](https://github.com/m-mdy-m/Math-Games)) ([`repository 3`](https://github.com/m-mdy-m/Check-Password-Value))
+
+• `MAHDI`
